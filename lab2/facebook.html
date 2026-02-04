@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset = "utf-8">
+        <title>facebook</title>
+        <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/056/006/607/non_2x/facebook-logo-icon-file-free-png.png" type = "image/x-icon">
+        <style>
+            body{
+                padding:0;
+                margin: 0;
+                background-color: white;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            #maincon{
+               
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+     
+                padding-top: 100px;
+                min-height: 100vh;     
+                gap: 30px;            
+                padding: 20px;
+                background-color:#f0f2f5;
+
+            }
+            
+            #secondcontainer{
+                
+                border-radius: 5px;
+
+                
+            }
+           
+            #sscon{
+                padding: 10px;
+                line-height: 1;
+                background-color: white;
+                border-radius: 8px;
+                
+                
+                
+            }
+            h1{
+                color:#1877f2;
+                font-size: 70px;
+                display:block;
+                text-align:left;
+                
+            }
+           
+            #email{
+                width: 380px;
+                height : 40px;
+                border-radius: 5px;
+                outline: none;
+                transition: border-color 0.2s;
+                font-size: 17px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-left: 15px;
+                display: flex;
+                justify-content: center;
+                border-color:#e0e4e9;
+            }
+
+            #password{
+                width: 380px;
+                height : 40px;
+                border-radius: 5px;
+                outline: none;
+                transition: border-color 0.2s;
+                font-size: 17px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-left: 15px;
+                display: flex;
+                justify-content: center;
+                border-color:#e0e4e9;
+            
+            }
+            #email:focus, #password:focus {
+                border: 1px solid #1877f2; /* Тот самый синий цвет Facebook */
+                box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2); /* Легкое свечение вокруг, как в оригинале */
+            }
+            #vhod{
+                background-color:#1877f2;
+                width: 400px;
+                height: 48px;
+                border-radius: 5px;
+                font-size: 20px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                padding:9px;
+                border-color:#1877f2;
+
+            }
+            #pi{
+                width: 450px;
+                display: flex;
+                justify-content: center;
+            }
+            input::placeholder{
+                color:#8d949e;
+                font-size:17px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                opacity:0.6;
+                padding:3px;
+              
+            }
+            #newacc{
+                width: 300px;
+                height: 30px;
+                background-color:#42b72a;
+                border-radius: 5px;
+                font-size: 20px;
+                color: white;
+                display: flex;
+                display: flex;
+                justify-content: center;
+                padding:12px;
+                margin-left:40px;
+                text-decoration: none;
+               
+                
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            hr, pre{
+                opacity: 0.3;
+            }
+            .language{
+                color: black;
+                opacity: 0.3;
+                display: inline-block;
+                justify-content: center;
+                font-size: 12px;
+            }
+
+            
+        </style>
+        
+
+    </head>
+    <body>
+        <div id = "maincon">
+            <div id = "firstcontainer">
+                <h1>facebook</h1>
+                <h3 style = "margin-top: -40px;">Facebook помогает вам всегда<br> оставаться на связи и общаться со <br>своими знакомыми.</h3>
+
+            </div>
+            <div id="secondcontainer">
+                <div id  = "sscon">
+                    <form action="#">
+                        <input type = "text" name = "email" id = "email" placeholder = "Электроннный адрес или номер телефона"><br>
+                        <input type = "password" name = "password" id = "password" placeholder = "Пароль"><br>
+                        <button type = "submit" id = "vhod" ><strong>Вход</strong></button><br>
+                        <a href = "#" style = "text-decoration: none;">Забыли пароль?</a><br>
+                        <hr>
+                        <a href = "#" id = "newacc"><strong>Создать новый аккаунт</strong></a><br>
+                    </form>
+                </div>
+                <p id = "pi"><strong>Создать Страницу </strong>  знаменитости, музыкальной группы или<br> компании.</p>
+            </div>
+        </div>
+           <div>
+                <a href = "#" class = "language">Русский</a>
+                <a href = "#" class = "language">Қазақша</a>
+                <a href = "#" class = "language">English (US)</a>
+                <a href = "#" class = "language">Türkçe</a>
+                <a href = "#" class = "language">Bahasa Indonesia</a>
+                <a href = "#" class = "language">中文(简体)</a>
+                <a href = "#" class = "language">Deutsch</a>
+                <a href = "#" class = "language">한국어</a>
+                <a href = "#" class = "language">Shqip</a>
+                <a href = "#" class = "language">Español</a>
+                <a href = "#" class = "language">Português (Brasil)</a>
+                <a href = "#" class = "language"><span style = "border: 1px solid black;  ">+</span></a>
+                
+           </div>
+           <div class>
+                <a href="#" class = "language">Зарегистрироваться</a>
+                <a href="#" class = "language">Вход</a>
+                <a href="#" class = "language">Messenger</a>
+                <a href="#" class = "language">Facebook Lite</a>
+                <a href="#" class = "language">Видео</a>
+                <a href="#" class = "language">Meta Pay</a>
+                <a href="#" class = "language">Магазин Meta</a>
+                <a href="#" class = "language">Meta Quest</a>
+                <a href="#" class = "language">Ray-Ban Meta</a>
+                <a href="#" class = "language">Meta AI</a>
+                <a href="#" class = "language">Instagram</a>
+                <a href="#" class = "language">Threads</a>
+                <a href="#" class = "language">Центр информации о выборах</a>
+                <a href="#" class = "language">Политика конфиденциальности</a>
+                <a href="#" class = "language">Центр конфиденциальности</a>
+                <a href="#" class = "language">Информация</a>
+                <a href="#" class = "language">Создать рекламу</a>
+                <a href="#" class = "language">Создать Страницу</a>
+                <a href="#" class = "language">Разработчикам</a>
+                <a href="#" class = "language">Вакансии</a>
+                <a href="#" class = "language">Файлы cookie</a>
+                <a href="#" class = "language">Рекламные предпочтения</a>
+                <a href="#" class = "language">Условия использования</a>
+                <a href="#" class = "language">Справка</a>
+                <a href="#" class = "language">Загрузка контактов и лиц, не являющихся пользователями</a>
+        </div>
+
+        <div class="footer-meta" style = "color: black;
+                opacity: 0.3;
+                display: inline-block;
+                justify-content: center;
+                font-size: 12px;">Meta © 2026</div>
+
+        
+        
+    </body>
+</html>
