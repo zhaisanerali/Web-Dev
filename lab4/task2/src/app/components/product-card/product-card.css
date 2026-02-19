@@ -1,0 +1,92 @@
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  
+  /* Делаем карточку гибким контейнером */
+  display: flex;
+  flex-direction: column;
+  height: 520px; /* Немного увеличим высоту для комфорта */
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.main-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  height: 40px; /* Фикс под 2 строки */
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 13px;
+  color: #666;
+  height: 55px; /* Фикс под описание */
+  overflow: hidden;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Блок с ценой теперь будет "отталкиваться" от текста сверху */
+.info-bottom {
+  margin-top: auto; 
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.rating {
+  margin-bottom: 15px;
+  color: #ffa500;
+}
+
+.kaspi-btn {
+  display: block;
+  background-color: #f12c2c;
+  color: white !important;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Отступ от кнопки до кнопок шаринга */
+}
+
+.share-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.share-buttons button {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: white !important;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.wa-btn { background-color: #25D366 !important; }
+.tg-btn { background-color: #0088cc !important; }
+
+.share-buttons button:hover { opacity: 0.9; }

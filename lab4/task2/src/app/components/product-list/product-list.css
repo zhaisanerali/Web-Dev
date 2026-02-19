@@ -1,0 +1,11 @@
+.product-grid {
+  display: grid;
+  /* Создает колонки, которые подстраиваются под размер экрана */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  /* Центрируем всю сетку */
+  max-width: 1300px;
+  margin: 0 auto;
+}
