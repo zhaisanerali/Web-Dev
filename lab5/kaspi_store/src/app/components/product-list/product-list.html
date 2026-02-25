@@ -1,0 +1,10 @@
+<div class="product-grid">
+  @for (prod of displayProducts; track prod.id) {
+    <app-product-card 
+      [product]="prod" 
+      (remove)="onRemoveProduct($event)">
+    </app-product-card>
+  } @empty {
+    <p>No products in this category.</p>
+  }
+</div>
