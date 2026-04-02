@@ -1,0 +1,30 @@
+[
+  {"model": "api.category", "pk": 1, "fields": {"name": "Телефон"}},
+  {"model": "api.category", "pk": 2, "fields": {"name": "Ноут"}},
+  {"model": "api.category", "pk": 3, "fields": {"name": "Наушник"}},
+  {"model": "api.category", "pk": 4, "fields": {"name": "Часы"}},
+
+  {"model": "api.product", "pk": 1, "fields": {"name": "iPhone 15 Pro", "description": "Флагман от Apple, 128GB", "price": 500000.0, "count": 10, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 2, "fields": {"name": "Samsung Galaxy S24", "description": "Мощный Android-смартфон", "price": 450000.0, "count": 8, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 3, "fields": {"name": "Xiaomi 14", "description": "Отличная камера и скорость", "price": 350000.0, "count": 15, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 4, "fields": {"name": "Google Pixel 8", "description": "Чистый Android и лучшие фото", "price": 300000.0, "count": 5, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 5, "fields": {"name": "Nothing Phone (2)", "description": "Стильный прозрачный дизайн", "price": 280000.0, "count": 7, "is_active": true, "category": 1}},
+
+  {"model": "api.product", "pk": 6, "fields": {"name": "MacBook Air M2", "description": "Тонкий и мощный для работы", "price": 600000.0, "count": 4, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 7, "fields": {"name": "ASUS ROG Strix", "description": "Игровой монстр с крутой графикой", "price": 850000.0, "count": 3, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 8, "fields": {"name": "Lenovo Legion 5", "description": "Сбалансированный ноутбук для геймеров", "price": 550000.0, "count": 6, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 9, "fields": {"name": "HP Spectre x360", "description": "Трансформер с сенсорным экраном", "price": 700000.0, "count": 2, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 10, "fields": {"name": "Acer Swift 3", "description": "Бюджетный вариант для учебы", "price": 250000.0, "count": 12, "is_active": true, "category": 2}},
+
+  {"model": "api.product", "pk": 11, "fields": {"name": "AirPods Pro 2", "description": "Лучший шумодав для iPhone", "price": 120000.0, "count": 25, "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 12, "fields": {"name": "Sony WH-1000XM5", "description": "Полноразмерные, топовый звук", "price": 180000.0, "count": 10, "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 13, "fields": {"name": "Samsung Buds 2 Pro", "description": "Компактные и басовитые", "price": 80000.0, "count": 20, "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 14, "fields": {"name": "Marshall Major IV", "description": "Классический дизайн, 80ч работы", "price": 75000.0, "count": 15, "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 15, "fields": {"name": "JBL Tune 510BT", "description": "Простые и надежные наушники", "price": 25000.0, "count": 40, "is_active": true, "category": 3}},
+
+  {"model": "api.product", "pk": 16, "fields": {"name": "Apple Watch Series 9", "description": "Умный помощник на каждый день", "price": 220000.0, "count": 9, "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 17, "fields": {"name": "Samsung Galaxy Watch 6", "description": "Классика на WearOS", "price": 150000.0, "count": 11, "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 18, "fields": {"name": "Garmin Fenix 7", "description": "Для сурового спорта и походов", "price": 400000.0, "count": 5, "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 19, "fields": {"name": "Huawei Watch GT 4", "description": "Очень долго держат заряд", "price": 110000.0, "count": 14, "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 20, "fields": {"name": "Amazfit Bip 5", "description": "Бюджетный фитнес-трекер", "price": 35000.0, "count": 30, "is_active": true, "category": 4}}
+]
